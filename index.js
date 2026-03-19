@@ -18,24 +18,24 @@ function add3PointsHome() {
     document.getElementById("homeScore").textContent = homePoints
 }
 
-function add1PointGuest() {
-    guestPoints += 1
-    document.getElementById("guestScore").textContent = guestPoints
+function add1PointAway() {
+    awayPoints += 1
+    document.getElementById("awayScore").textContent = awayPoints
 }
 
-function add2PointsGuest() {
-    guestPoints += 2
-    document.getElementById("guestScore").textContent = guestPoints
+function add2PointsAway() {
+    awayPoints += 2
+    document.getElementById("awayScore").textContent = awayPoints
 }
 
-function add3PointsGuest() {
-    guestPoints += 3
-    document.getElementById("guestScore").textContent = guestPoints
+function add3PointsAway() {
+    awayPoints += 3
+    document.getElementById("awayScore").textContent = awayPoints
 }
 
 function scoreReset() {
-    guestPoints = 0
-    document.getElementById("guestScore").textContent = guestPoints
+    awayPoints = 0
+    document.getElementById("awayScore").textContent = awayPoints
     homePoints = 0
     document.getElementById("homeScore").textContent = homePoints
 }

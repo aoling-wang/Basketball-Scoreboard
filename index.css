@@ -30,7 +30,7 @@ body {
     margin: 20px auto 10px auto;
 }
 
-#homeScore, #guestScore {
+#homeScore, #awayScore {
     background: black;
     color: red;
     width: 150px;
